@@ -1,0 +1,37 @@
+ 
+https://www.youtube.com/watch?v=VxeCLbckBOE&ab_channel=BorjaScript
+
+#instalacion de nodeJs
+	https://kinsta.com/es/blog/como-instalar-node-js/
+	https://www.geeksforgeeks.org/installation-of-node-js-on-linux/
+	https://nodejs.org/es/download/package-manager/#debian-and-ubuntu-based-linux-distributions-enterprise-linux-fedora-and-snap-packages
+
+	#verificar vercion
+		node -v
+
+#   instalar npm
+		https://phoenixnap.com/kb/install-node-js-npm-on-windows
+		verificar version
+			npm -v
+
+
+#   instalar paquete de ayuda de react
+		npm install -g create-react-app
+
+#   crear primer app en react
+create-react-app nombre_proyecto
+
+
+#ejecutar app
+	cd nombre_proyecto
+    npm start
+
+    //-----------------------------------------  instalar dependecias
+//copiar y ejecutar en consola cada line/fila
+npm install axios
+npm install react-bootstrap bootstrap
+npm install reactstrap
+npm install @fortawesome/react-fontawesome
+npm install @fortawesome/free-solid-svg-icons
+
+si creas tu proyecto nuevo solo copias lo de App.JS en el nuevo proyecto con lo anterior instalado y ya te tendria que jalar
